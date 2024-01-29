@@ -1,0 +1,4474 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "LICENSE",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.LICENSE",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ASN1IntegerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.ASN1IntegerTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "BiometricDataUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.BiometricDataUnitTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "BitStringTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.BitStringTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CertificateTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.CertificateTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DERApplicationSpecificTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.DERApplicationSpecificTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DERPrivateTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.DERPrivateTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DERUTF8StringTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.DERUTF8StringTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DLExternalTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.DLExternalTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "EncryptedPrivateKeyInfoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.EncryptedPrivateKeyInfoTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "EqualsAndHashCodeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.EqualsAndHashCodeTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GeneralNameTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.GeneralNameTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GeneralizedTimeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.GeneralizedTimeTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GenerationTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.GenerationTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "InputStreamTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.InputStreamTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Iso4217CurrencyCodeUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.Iso4217CurrencyCodeUnitTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "IssuingDistributionPointUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.IssuingDistributionPointUnitTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "KMACParamsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.KMACParamsTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "KeyUsageTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.KeyUsageTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "LinkedCertificateTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.LinkedCertificateTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "LocaleTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.LocaleTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "MiscTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.MiscTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "MonetaryValueUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.MonetaryValueUnitTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "NameOrPseudonymUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.NameOrPseudonymUnitTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "NetscapeCertTypeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.NetscapeCertTypeTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "OCSPTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.OCSPTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "OIDTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.OIDTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ObjectIdentifierTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.ObjectIdentifierTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "PKCS10Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.PKCS10Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "PKCS12Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.PKCS12Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ParsingTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.ParsingTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "PersonalDataUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.PersonalDataUnitTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "PolicyConstraintsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.PolicyConstraintsTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "PrivateKeyInfoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.PrivateKeyInfoTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "QCStatementUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.QCStatementUnitTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RFC4519Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.RFC4519Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ReasonFlagsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.ReasonFlagsTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RegressionTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.RegressionTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RelativeOIDTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.RelativeOIDTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SemanticsInformationUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.SemanticsInformationUnitTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SetTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.SetTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "StringTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.StringTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SubjectKeyIdentifierTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.SubjectKeyIdentifierTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "TagTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.TagTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "TargetInformationTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.TargetInformationTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "TypeOfBiometricDataUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.TypeOfBiometricDataUnitTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "UTCTimeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.UTCTimeTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "X500NameTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.X500NameTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "X509AltTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.X509AltTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "X509ExtensionsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.X509ExtensionsTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "X509NameTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.X509NameTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "X9Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.test.X9Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.agreement.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(2)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.ec.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ECElGamalTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.ec.test.ECElGamalTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ECTransformationTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.ec.test.ECTransformationTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DESExample",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.examples.DESExample",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "JPAKEExample",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.examples.JPAKEExample",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(3)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.prng.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CTRDRBGTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.prng.test.CTRDRBGTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DualECDRBGTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.prng.test.DualECDRBGTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "FixedSecureRandomTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.prng.test.FixedSecureRandomTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "HMacDRBGTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.prng.test.HMacDRBGTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "HashDRBGTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.prng.test.HashDRBGTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RegressionTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.prng.test.RegressionTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SP800RandomTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.prng.test.SP800RandomTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "X931Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.prng.test.X931Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AESFastTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.AESFastTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AESLightTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.AESLightTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AESTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.AESTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AESVectorFileTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.AESVectorFileTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AESWrapPadTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.AESWrapPadTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AESWrapTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.AESWrapTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ARIATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ARIATest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(4)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Argon2Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Argon2Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AsconTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.AsconTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AsymmetricConstraintsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.AsymmetricConstraintsTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "BCryptTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.BCryptTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "BigIntegersTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.BigIntegersTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Blake2bDigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Blake2bDigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Blake2sDigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Blake2sDigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Blake2xsDigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Blake2xsDigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Blake3Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Blake3Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "BlockCipherResetTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.BlockCipherResetTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "BlowfishTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.BlowfishTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CAST5Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.CAST5Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CAST6Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.CAST6Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CCMTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.CCMTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.CMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CSHAKETest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.CSHAKETest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CTSTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.CTSTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CamelliaLightTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.CamelliaLightTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CamelliaTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.CamelliaTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ChaCha20Poly1305Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ChaCha20Poly1305Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ChaChaTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ChaChaTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CipherStreamTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.CipherStreamTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ConcatenationKDFTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ConcatenationKDFTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CramerShoupTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.CramerShoupTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CryptoServiceConstraintsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.CryptoServiceConstraintsTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DESTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.DESTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DESedeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.DESedeTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DHKEKGeneratorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.DHKEKGeneratorTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DHTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.DHTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DSATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.DSATest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DSTU4145Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.DSTU4145Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DSTU7564Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.DSTU7564Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DSTU7624Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.DSTU7624Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DeterministicDSATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.DeterministicDSATest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DigestConstraintsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.DigestConstraintsTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DigestRandomNumberTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.DigestRandomNumberTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "EAXTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.EAXTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ECDHKEKGeneratorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ECDHKEKGeneratorTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ECGOST3410Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ECGOST3410Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ECIESKeyEncapsulationTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ECIESKeyEncapsulationTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ECIESTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ECIESTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ECNRTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ECNRTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ECTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ECTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Ed25519Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Ed25519Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Ed448Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Ed448Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ElGamalTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ElGamalTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ElephantTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ElephantTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "EqualsHashCodeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.EqualsHashCodeTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "EthereumIESTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.EthereumIESTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GCMSIVTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GCMSIVTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GCMTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GCMTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GOST28147MacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GOST28147MacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GOST28147Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GOST28147Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GOST3410Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GOST3410Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GOST3411DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GOST3411DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GOST3411_2012_256DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GOST3411_2012_256DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GOST3411_2012_512DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GOST3411_2012_512DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GOST3412MacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GOST3412MacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GOST3412Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GOST3412Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GSKKDFTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.GSKKDFTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Grain128AEADTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Grain128AEADTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Grain128Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Grain128Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Grainv1Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Grainv1Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "HCFamilyTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.HCFamilyTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "HCFamilyVecTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.HCFamilyVecTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "HKDFGeneratorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.HKDFGeneratorTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Haraka256DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Haraka256DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Haraka512DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Haraka512DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "HashCommitmentTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.HashCommitmentTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "IDEATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.IDEATest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ISAACTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ISAACTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ISAPTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ISAPTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ISO9796Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ISO9796Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ISO9797Alg3MacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ISO9797Alg3MacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "IsoTrailerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.IsoTrailerTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "JournalingSecureRandomTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.JournalingSecureRandomTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "KDF1GeneratorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.KDF1GeneratorTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "KDF2GeneratorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.KDF2GeneratorTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "KDFCounterGeneratorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.KDFCounterGeneratorTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "KDFDoublePipelineIteratorGeneratorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.KDFDoublePipelineIteratorGeneratorTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "KDFFeedbackGeneratorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.KDFFeedbackGeneratorTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "KMACTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.KMACTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "KangarooTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.KangarooTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "KeccakDigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.KeccakDigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "LEATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.LEATest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "MD2DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.MD2DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "MD4DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.MD4DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "MD5DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.MD5DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "MD5HMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.MD5HMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "MGF1GeneratorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.MGF1GeneratorTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "MacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.MacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ModeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ModeTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "NISTCTSTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.NISTCTSTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "NISTECCTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.NISTECCTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "NaccacheSternTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.NaccacheSternTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "NoekeonTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.NoekeonTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "NonMemoableDigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.NonMemoableDigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "NullTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.NullTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "OAEPTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.OAEPTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "OCBTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.OCBTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "OpenBSDBCryptTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.OpenBSDBCryptTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "OpenSSHKeyParsingTests",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.OpenSSHKeyParsingTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "PKCS12Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.PKCS12Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "PKCS5Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.PKCS5Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "PSSBlindTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.PSSBlindTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "PSSTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.PSSTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "PaddingTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.PaddingTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ParallelHashTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ParallelHashTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "PhotonBeetleTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.PhotonBeetleTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Poly1305Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Poly1305Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RC2Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RC2Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RC2WrapTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RC2WrapTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RC4Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RC4Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RC5Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RC5Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RC6Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RC6Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RFC3211WrapTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RFC3211WrapTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RIPEMD128DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RIPEMD128DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RIPEMD128HMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RIPEMD128HMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RIPEMD160DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RIPEMD160DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RIPEMD160HMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RIPEMD160HMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RIPEMD256DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RIPEMD256DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RIPEMD320DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RIPEMD320DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RSABlindedTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RSABlindedTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RSADigestSignerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RSADigestSignerTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RSAKeyEncapsulationTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RSAKeyEncapsulationTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RSATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RSATest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RadixConverterTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RadixConverterTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RegressionTest(2)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RegressionTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ResetTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ResetTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RijndaelTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.RijndaelTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SCryptTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SCryptTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SEEDTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SEEDTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA1DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA1DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA1HMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA1HMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA224DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA224DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA224HMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA224HMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA256DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA256DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA256HMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA256HMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA384DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA384DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA384HMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA384HMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA3DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA3DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA3HMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA3HMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA512DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA512DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA512HMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA512HMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA512t224DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA512t224DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHA512t256DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHA512t256DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SHAKEDigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SHAKEDigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SM2EngineTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SM2EngineTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SM2KeyExchangeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SM2KeyExchangeTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SM2SignerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SM2SignerTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SM3DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SM3DigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SM4Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SM4Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SP80038GTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SP80038GTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SRP6Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SRP6Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Salsa20Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Salsa20Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SerpentTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SerpentTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Shacal2Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Shacal2Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ShortenedDigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ShortenedDigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SipHash128Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SipHash128Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SipHashTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SipHashTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SkeinDigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SkeinDigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SkeinMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SkeinMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SkipjackTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SkipjackTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SparkleTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SparkleTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "StreamCipherResetTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.StreamCipherResetTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "SymmetricConstraintsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.SymmetricConstraintsTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "TEATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.TEATest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Threefish1024Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Threefish1024Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Threefish256Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Threefish256Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Threefish512Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.Threefish512Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "TigerDigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.TigerDigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "TnepresTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.TnepresTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "TupleHashTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.TupleHashTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "TwofishTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.TwofishTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "VMPCKSA3Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.VMPCKSA3Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "VMPCMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.VMPCMacTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "VMPCTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.VMPCTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "WhirlpoolDigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.WhirlpoolDigestTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "X25519Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.X25519Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "X448Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.X448Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "X931SignerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.X931SignerTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "XSalsa20Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.XSalsa20Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "XTEATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.XTEATest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "XoodyakTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.XoodyakTest",
+            "projectName": "core"
+        },
+        {
+            "type": "scala",
+            "name": "ZucTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.ZucTest",
+            "buildTarget": "${workspaceFolder}/core"
+        },
+        {
+            "type": "java",
+            "name": "MacThroughputTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.speedy.MacThroughputTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ThreefishReferenceEngine",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.speedy.ThreefishReferenceEngine",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "ThroughputTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.test.speedy.ThroughputTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(5)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.i18n.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(6)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "F2mProofer",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.test.F2mProofer",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "DiscoverEndomorphisms",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.DiscoverEndomorphisms",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "F2mSqrtOptimizer",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.F2mSqrtOptimizer",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "TraceOptimizer",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.TraceOptimizer",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(7)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.raw.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(8)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(9)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.crypto.lms.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(10)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.crypto.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "NewHopeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.crypto.test.NewHopeTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RainbowTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.crypto.test.RainbowTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RegressionTest(3)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.crypto.test.RegressionTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Sphincs256Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.crypto.test.Sphincs256Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(11)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.legacy.crypto.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "GMSSSignerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.legacy.crypto.test.GMSSSignerTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "McElieceCipherTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.legacy.crypto.test.McElieceCipherTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "McElieceFujisakiCipherTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.legacy.crypto.test.McElieceFujisakiCipherTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "McElieceKobaraImaiCipherTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.legacy.crypto.test.McElieceKobaraImaiCipherTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "McEliecePointchevalCipherTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.legacy.crypto.test.McEliecePointchevalCipherTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RainbowSignerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.legacy.crypto.test.RainbowSignerTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "RegressionTest(4)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.legacy.crypto.test.RegressionTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(12)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.legacy.math.ntru.euclid.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(13)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.legacy.math.ntru.polynomial.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(14)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.legacy.math.ntru.util.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(15)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.math.ntru.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(16)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.util.encoders.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "EncoderTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.util.encoders.test.EncoderTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "UTF8Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.util.encoders.test.UTF8Test",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(17)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.util.io.pem.test.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "BufferingOutputStreamTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.util.io.test.BufferingOutputStreamTest",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(18)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.util.utiltest.AllTests",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CreateCompressedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateCompressedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "CreateEncryptedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateEncryptedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "CreateLargeCompressedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateLargeCompressedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "CreateLargeEncryptedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateLargeEncryptedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "CreateLargeSignedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateLargeSignedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "CreateSignedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateSignedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "CreateSignedMultipartMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateSignedMultipartMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "ReadCompressedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadCompressedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "ReadEncryptedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadEncryptedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "ReadLargeCompressedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadLargeCompressedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "ReadLargeEncryptedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadLargeEncryptedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "ReadLargeSignedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadLargeSignedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "ReadSignedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadSignedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "SendSignedAndEncryptedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.SendSignedAndEncryptedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "ValidateSignedMail",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ValidateSignedMail",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(19)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.test.AllTests",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "NewSMIMEEnvelopedTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.test.NewSMIMEEnvelopedTest",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "NewSMIMESignedTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.test.NewSMIMESignedTest",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "SMIMECompressedTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.test.SMIMECompressedTest",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "SMIMEMiscTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.test.SMIMEMiscTest",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "SMIMEToolkitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.test.SMIMEToolkitTest",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "SignedMailValidatorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.test.SignedMailValidatorTest",
+            "projectName": "mail"
+        },
+        {
+            "type": "java",
+            "name": "KeyBoxByteBufferTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.gpg.keybox.KeyBoxByteBufferTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(20)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.gpg.test.AllTests",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "KeyBoxTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.gpg.test.KeyBoxTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "RegressionTest(5)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.gpg.test.RegressionTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "ByteArrayHandler",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.ByteArrayHandler",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "ClearSignedFileProcessor",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.ClearSignedFileProcessor",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "DSAElGamalKeyRingGenerator",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.DSAElGamalKeyRingGenerator",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "DetachedSignatureProcessor",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.DetachedSignatureProcessor",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "DirectKeySignature",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.DirectKeySignature",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "EllipticCurveKeyPairGenerator",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.EllipticCurveKeyPairGenerator",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "KeyBasedFileProcessor",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.KeyBasedFileProcessor",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "KeyBasedLargeFileProcessor",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.KeyBasedLargeFileProcessor",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PBEFileProcessor",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.PBEFileProcessor",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PubringDump",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.PubringDump",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "RSAKeyPairGenerator",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.RSAKeyPairGenerator",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "SignedFileProcessor",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.SignedFileProcessor",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(21)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.examples.test.AllTests",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(22)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.AllTests",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "Argon2S2KTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.Argon2S2KTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "ArmorCRCTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.ArmorCRCTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "ArmoredInputStreamBackslashTRVFTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.ArmoredInputStreamBackslashTRVFTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "ArmoredInputStreamCRCErrorGetsThrownTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.ArmoredInputStreamCRCErrorGetsThrownTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "ArmoredInputStreamIngoreMissingCRCSum",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.ArmoredInputStreamIngoreMissingCRCSum",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "ArmoredInputStreamTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.ArmoredInputStreamTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "ArmoredOutputStreamTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.ArmoredOutputStreamTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "ArmoredOutputStreamUTF8Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.ArmoredOutputStreamUTF8Test",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "BcPGPDSAElGamalTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.BcPGPDSAElGamalTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "BcPGPDSATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.BcPGPDSATest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "BcPGPEd25519JcaKeyPairConversionTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.BcPGPEd25519JcaKeyPairConversionTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "BcPGPEncryptedDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.BcPGPEncryptedDataTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "BcPGPKeyRingTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.BcPGPKeyRingTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "BcPGPPBETest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.BcPGPPBETest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "BcPGPRSATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.BcPGPRSATest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "CRC24Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.CRC24Test",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "DSA2Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.DSA2Test",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "ExSExprTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.ExSExprTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "IgnoreMarkerPacketInCertificatesTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.IgnoreMarkerPacketInCertificatesTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "IgnoreUnknownEncryptedSessionKeys",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.IgnoreUnknownEncryptedSessionKeys",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPAeadTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPAeadTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPArmoredTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPArmoredTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPCanonicalizedDataGeneratorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPCanonicalizedDataGeneratorTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPClearSignedSignatureTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPClearSignedSignatureTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPCompressionTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPCompressionTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPDSAElGamalTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPDSAElGamalTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPDSATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPDSATest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPECDHTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPECDHTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPECDSATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPECDSATest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPECMessageTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPECMessageTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPEdDSATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPEdDSATest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPEncryptedDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPEncryptedDataTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPFeaturesTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPFeaturesTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPKeyRingTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPKeyRingTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPMarkerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPMarkerTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPNoPrivateKeyTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPNoPrivateKeyTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPPBETest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPPBETest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPPacketTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPPacketTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPParsingTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPParsingTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPPublicKeyMergeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPPublicKeyMergeTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPRSATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPRSATest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPSessionKeyTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPSessionKeyTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPSignatureInvalidVersionIgnoredTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPSignatureInvalidVersionIgnoredTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPSignatureTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPSignatureTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPUnicodeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPUnicodeTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPUtilTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPUtilTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PGPv6KeyTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PGPv6KeyTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "PolicyURITest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.PolicyURITest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "RegexTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.RegexTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "RegressionTest(6)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.RegressionTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "RewindStreamWhenDecryptingMultiSKESKMessageTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.RewindStreamWhenDecryptingMultiSKESKMessageTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "SExprTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.SExprTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "UnknownPacketTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.UnknownPacketTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "UnrecognizableSubkeyParserTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.UnrecognizableSubkeyParserTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "WildcardKeyIDTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openpgp.test.WildcardKeyIDTest",
+            "projectName": "pg"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(23)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.cmp.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(24)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.crmf.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(25)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.ocsp.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "OCSPTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.ocsp.test.OCSPTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "PKIXRevocationTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.ocsp.test.PKIXRevocationTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(26)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.path.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "BasicConstraintsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.path.test.BasicConstraintsTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "CertPathTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.path.test.CertPathTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "CertPathValidationTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.path.test.CertPathValidationTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "PKITSBasicConstraintsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.path.test.PKITSBasicConstraintsTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(27)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AttrCertSelectorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.test.AttrCertSelectorTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AttrCertTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.test.AttrCertTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "CertPathLoopTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.test.CertPathLoopTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "CertTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.test.CertTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "DANETest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.test.DANETest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "ExternalKeyTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.test.ExternalKeyTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "GOST3410_2012CMSTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.test.GOST3410_2012CMSTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "PKCS10Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.test.PKCS10Test",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "X509ExtensionUtilsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cert.test.X509ExtensionUtilsTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(28)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cms.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AuthEnvelopedDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cms.test.AuthEnvelopedDataTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "BcEnvelopedDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cms.test.BcEnvelopedDataTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "BcSignedDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cms.test.BcSignedDataTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "NewAuthenticatedDataStreamTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cms.test.NewAuthenticatedDataStreamTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "NewAuthenticatedDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cms.test.NewAuthenticatedDataTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "NewCompressedDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cms.test.NewCompressedDataTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "NewEnvelopedDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cms.test.NewEnvelopedDataTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "NewSignedDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cms.test.NewSignedDataTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "PQCSignedDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cms.test.PQCSignedDataTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "Rfc4134Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.cms.test.Rfc4134Test",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(29)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.dvcs.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(30)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.eac.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(31)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.est.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(32)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.its.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(33)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mime.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(34)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mozilla.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "SPKACTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mozilla.test.SPKACTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(35)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openssl.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "ParserTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openssl.test.ParserTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "WriterTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.openssl.test.WriterTest",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(36)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.operator.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(37)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pkcs.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "PKCS10Test(2)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pkcs.test.PKCS10Test",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(38)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pkix.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "X509CertificateFormatter",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pkix.util.X509CertificateFormatter",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(39)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tsp.test.AllTests",
+            "projectName": "pkix"
+        },
+        {
+            "type": "java",
+            "name": "LICENSE(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.LICENSE",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DESExample(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.examples.DESExample",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "JPAKEExample(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.examples.JPAKEExample",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(40)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jcajce.provider.test.AllTests",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "AEADTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.AEADTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "AESSICTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.AESSICTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "AESTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.AESTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ARIATest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ARIATest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "AlgorithmParametersTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.AlgorithmParametersTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(41)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.AllTests",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "BCFKSStoreTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.BCFKSStoreTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "BlockCipherTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.BlockCipherTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CMacTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CMacTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CRL5Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CRL5Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CamelliaTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CamelliaTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CertLocaleTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CertLocaleTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CertPathBuilderTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CertPathBuilderTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CertPathTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CertPathTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CertPathValidatorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CertPathValidatorTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CertStoreTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CertStoreTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CertTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CertTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CertUniqueIDTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CertUniqueIDTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ChaCha20Poly1305Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ChaCha20Poly1305Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CipherStreamTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CipherStreamTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "CipherStreamTest2",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.CipherStreamTest2",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DESedeTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.DESedeTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DHIESTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.DHIESTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DHTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.DHTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DRBGTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.DRBGTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DSATest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.DSATest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DSTU4145Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.DSTU4145Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DSTU7624Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.DSTU7624Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DetDSATest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.DetDSATest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DigestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.DigestTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DoFinalTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.DoFinalTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ECDSA5Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ECDSA5Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ECEncodingTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ECEncodingTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ECIESTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ECIESTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ECIESVectorTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ECIESVectorTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ECNRTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ECNRTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "EdECTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.EdECTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ElGamalTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ElGamalTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "EncryptedPrivateKeyInfoTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.EncryptedPrivateKeyInfoTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "FIPSDESTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.FIPSDESTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "GMacTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.GMacTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "GOST28147Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.GOST28147Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "GOST3410KeyPairTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.GOST3410KeyPairTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "GOST3410Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.GOST3410Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "GOST3412Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.GOST3412Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "HMacTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.HMacTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "IESTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.IESTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ImplicitlyCaTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ImplicitlyCaTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "KeccakTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.KeccakTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "KeyStoreTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.KeyStoreTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "MQVTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.MQVTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "MacTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.MacTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "MultiCertStoreTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.MultiCertStoreTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "NISTCertPathTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.NISTCertPathTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "NamedCurveTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.NamedCurveTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "NetscapeCertRequestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.NetscapeCertRequestTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "NoekeonTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.NoekeonTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "OCBTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.OCBTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "OpenSSHSpecTests",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.OpenSSHSpecTests",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "PBETest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.PBETest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "PKCS10CertRequestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.PKCS10CertRequestTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "PKCS12StorePBETest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.PKCS12StorePBETest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "PKCS12StoreTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.PKCS12StoreTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "PKIXNameConstraintsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.PKIXNameConstraintsTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "PKIXPolicyMappingTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.PKIXPolicyMappingTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "PKIXTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.PKIXTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "PSSTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.PSSTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "Poly1305Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.Poly1305Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "RSATest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.RSATest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "RegressionTest(7)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.RegressionTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SEEDTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SEEDTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SM2CipherTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SM2CipherTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SM2SignatureTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SM2SignatureTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SM4Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SM4Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SealedTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SealedTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SerialisationTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SerialisationTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "Shacal2Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.Shacal2Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SigNameTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SigNameTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SigTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SigTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SignatureTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SignatureTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SipHash128Test(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SipHash128Test",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SipHashTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SipHashTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SkeinTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SkeinTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "SlotTwoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.SlotTwoTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "TLSKDFTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.TLSKDFTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ThreefishTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ThreefishTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "WrapTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.WrapTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "X509CertificatePairTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.X509CertificatePairTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "X509StreamParserTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.X509StreamParserTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "XIESTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.XIESTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "XOFTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.XOFTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ZucTest(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ZucTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ZucTest2",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ZucTest2",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ZucTest3",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ZucTest3",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "ZucTest4",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.ZucTest4",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(42)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.nist.AllTests",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "NistCertPathReviewerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.nist.NistCertPathReviewerTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "NistCertPathTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.nist.NistCertPathTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(43)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.rsa3.AllTests",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "RSA3CertTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.provider.test.rsa3.RSA3CertTest",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "DiscoverEndomorphisms(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.DiscoverEndomorphisms",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "F2mSqrtOptimizer(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.F2mSqrtOptimizer",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "TraceOptimizer(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.TraceOptimizer",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(44)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.pqc.jcajce.provider.test.AllTests",
+            "projectName": "prov"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(45)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.test.est.AllTests",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "TestCACertsFetch",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.test.est.TestCACertsFetch",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "TestEnroll",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.test.est.TestEnroll",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "TestGetCSRAttrs",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.test.est.TestGetCSRAttrs",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "TestServerKeyGeneration",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.test.est.TestServerKeyGeneration",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "CSRAttributesExample",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.test.est.examples.CSRAttributesExample",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "CaCertsExample",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.test.est.examples.CaCertsExample",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "EnrollExample",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.test.est.examples.EnrollExample",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(46)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jsse.provider.test.AllTests",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "BCJSSEClientTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jsse.provider.test.BCJSSEClientTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(47)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.AllTests",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "BasicTlsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.BasicTlsTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "DTLSClientTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.DTLSClientTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "DTLSServerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.DTLSServerTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "PSKTls13ClientTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.PSKTls13ClientTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "PSKTls13ServerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.PSKTls13ServerTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "PSKTlsClientTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.PSKTlsClientTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "PSKTlsServerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.PSKTlsServerTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "TlsClientRawKeysTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.TlsClientRawKeysTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "TlsClientTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.TlsClientTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "TlsServerRawKeysTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.TlsServerRawKeysTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "TlsServerTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.tls.test.TlsServerTest",
+            "projectName": "tls"
+        },
+        {
+            "type": "java",
+            "name": "BodyPartIDTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.BodyPartIDTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "BodyPartListTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.BodyPartListTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "BodyPartPathTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.BodyPartPathTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "BodyPartReferenceTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.BodyPartReferenceTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CMCCertificationRequestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.CMCCertificationRequestTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CMCFailInfoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.CMCFailInfoTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CMCPublicationInfoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.CMCPublicationInfoTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CMCStatusInfoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.CMCStatusInfoTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CMCStatusInfoV2Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.CMCStatusInfoV2Test",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CMCStatusTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.CMCStatusTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CMCUnsignedDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.CMCUnsignedDataTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "ControlsProcessedTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.ControlsProcessedTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "DecryptedPOPTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.DecryptedPOPTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "EncryptedPOPTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.EncryptedPOPTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "ExtendedFailInfoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.ExtendedFailInfoTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "ExtensionReqTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.ExtensionReqTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "GetCRLTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.GetCRLTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "GetCertTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.GetCertTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "IdentityProofV2Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.IdentityProofV2Test",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "LraPopWitnessTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.LraPopWitnessTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "ModCertTemplateTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.ModCertTemplateTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "OtherMsgTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.OtherMsgTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "OtherStatusInfoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.OtherStatusInfoTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "PKIDataTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.PKIDataTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "PKIResponseTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.PKIResponseTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "PendInfoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.PendInfoTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "PopLinkWitnessV2Test",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.PopLinkWitnessV2Test",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "PublishTrustAnchorsTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.PublishTrustAnchorsTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "RevokeRequestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.RevokeRequestTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "TaggedAttributeTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.TaggedAttributeTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "TaggedCertificationRequestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.TaggedCertificationRequestTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "TaggedContentInfoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.TaggedContentInfoTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "TaggedRequestTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmc.test.TaggedRequestTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CertifiedKeyPairTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmp.test.CertifiedKeyPairTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "PKIFailureInfoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmp.test.PKIFailureInfoTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "PollReqContentTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cmp.test.PollReqContentTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "AttributeTableUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cms.test.AttributeTableUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CMSTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.cms.test.CMSTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "DhSigStaticTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.crmf.test.DhSigStaticTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "PKIPublicationInfoTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.crmf.test.PKIPublicationInfoTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CommitmentTypeIndicationUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.esf.test.CommitmentTypeIndicationUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CommitmentTypeQualifierUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.esf.test.CommitmentTypeQualifierUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "SignerLocationUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.esf.test.SignerLocationUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "ContentHintsUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.ess.test.ContentHintsUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "ESSCertIDv2UnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.ess.test.ESSCertIDv2UnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "OtherCertIDUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.ess.test.OtherCertIDUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "OtherSigningCertificateUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.ess.test.OtherSigningCertificateUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CscaMasterListTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.icao.test.CscaMasterListTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "DataGroupHashUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.icao.test.DataGroupHashUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "LDSSecurityObjectUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.icao.test.LDSSecurityObjectUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "AdditionalInformationSyntaxUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.isismtt.test.AdditionalInformationSyntaxUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "AdmissionSyntaxUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.isismtt.test.AdmissionSyntaxUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "AdmissionsUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.isismtt.test.AdmissionsUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "CertHashUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.isismtt.test.CertHashUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "DeclarationOfMajorityUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.isismtt.test.DeclarationOfMajorityUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "MonetaryLimitUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.isismtt.test.MonetaryLimitUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "NamingAuthorityUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.isismtt.test.NamingAuthorityUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "ProcurationSyntaxUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.isismtt.test.ProcurationSyntaxUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "ProfessionInfoUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.isismtt.test.ProfessionInfoUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "RequestedCertificateUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.isismtt.test.RequestedCertificateUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "RestrictionUnitTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.isismtt.test.RestrictionUnitTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "SMIMETest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.smime.test.SMIMETest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(48)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.util.test.AllTests",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "RegressionTest(8)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.util.test.RegressionTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "AllTests(49)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.oer.test.AllTests",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "ExpansionTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.oer.test.ExpansionTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "ExtensionTest",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.oer.test.ExtensionTest",
+            "projectName": "util"
+        },
+        {
+            "type": "java",
+            "name": "RegressionTest(9)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.oer.test.RegressionTest",
+            "projectName": "util"
+        }
+    ]
+}

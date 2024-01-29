@@ -1,0 +1,86 @@
+/*dependencies {
+    implementation project(':core')
+    testImplementation files('../libs/unboundid-ldapsdk-6.0.8.jar')
+}
+
+jar.archiveBaseName = "bcprov-$vmrange"
+
+
+sourceSets {
+    main {
+        java {
+            srcDirs '../core/src/main/java'
+        }
+    }
+}
+
+task sourcesJar(type: Jar) {
+  archiveBaseName = jar.archiveBaseName
+  classifier = 'sources'
+  from sourceSets.main.allSource
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+  archiveBaseName = jar.archiveBaseName
+  classifier = 'javadoc'
+  from javadoc.destinationDir
+}
+
+artifacts {
+    archives jar
+    archives javadocJar
+    archives sourcesJar
+}*/
+plugins {
+    id 'scala'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':core')
+    testImplementation files('../libs/unboundid-ldapsdk-6.0.8.jar')
+    implementation 'org.scala-lang:scala-library:3.3.1' // Scalaのバージョンに合わせて変更
+    implementation 'org.scala-lang:scala-reflect:3.3.1' // 必要であれば追加
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.69' // Bouncy Castleの依存関係
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs '../core/src/main/java'
+        }
+        scala {
+            srcDirs '../core/src/main/scala' // Scalaコードのディレクトリを指定
+        }
+    }
+}
+
+tasks.withType(ScalaCompile) {
+    scalaCompileOptions.metaClass.useAnt = false
+    scalaCompileOptions.deprecation = false
+    scalaCompileOptions.feature = false
+}
+
+
+task sourcesJar(type: Jar) {
+    archiveBaseName = jar.archiveBaseName
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    archiveBaseName = jar.archiveBaseName
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives jar
+    archives javadocJar
+    archives sourcesJar
+}
+
+
